@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Login from '../Login.jsx';
-import SingUp from '../SingUp.jsx';
-import DetalleProducto from '../DetalleProducto.jsx';
-import Home from '../Home.jsx';
-import ErrorPage from '../ErrorPage.jsx'; 
+import Login from '../views/Login.jsx';
+import SingUp from '../views/SingUp.jsx';
+import DetalleProducto from '../views/DetalleProducto.jsx';
+import Home from '../views/Home.jsx';
+import ErrorPage from '../views/ErrorPage.jsx'; 
 
 export const router = createBrowserRouter([
     { path: "/", element: <Home/> },
